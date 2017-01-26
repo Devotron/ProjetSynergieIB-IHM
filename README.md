@@ -4,7 +4,10 @@
 
 ###### Sujet
 
+La motivation de ce projet est de trouver une solution pour la problématique du manque d’interactions entre les acteurs domaines de l’Ingénierie des Besoins et de l'Interaction Homme Machine. 
 
+Les objectifs de ce projet sont dans un premier temps de rechercher et d'étudier les similarités 
+dans l'Ingénierie des Besoins et dans le domaine de l'Interaction Homme Machine (concepts, terminologies, méthodes d'analyse, etc.). Puis d'utiliser les résultats obtenus pour conceptualiser et réaliser une solution logicielle.    
 
 ###### Encadrants
 
