@@ -39,3 +39,17 @@ La seconde partie concerne le développement du logiciel à partir des résultat
 - [ ] Synthèse
 - [ ] Conception logiciel
 - [ ] Développement logiciel
+
+###### Répartition des tâches
+
+
++ *Michaël, Marthe :*
+- [ ] Recherche bibliographie sur l'IB
+
++ *Florian, Fréderic :*
+- [ ] Recherche bibliographie sur l'IHM
+
++ *Aime :*
+- [ ] Recherche sur les logiciels existant pour l'IB et l'IHM
+
+
