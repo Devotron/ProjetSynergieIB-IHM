@@ -16,11 +16,11 @@ dans l'Ingénierie des Besoins et dans le domaine de l'Interaction Homme Machine
 
 ###### Membres du groupe
 
-- Michaël Gianfaldone *(Chef de projet)*
-- Florian Muller
-- Frederic Testaniere
-- Marthe Idani
-- Aime Niteka
+- Michaël Gianfaldone *(Chef de projet)* - (michael.gianfaldone@etu.unice.fr) 
+- Florian Muller - (florian.muller@etu.unice.fr)
+- Frederic Testaniere - (frederic.testaniere@etu.unice.fr)
+- Marthe Idani - (palamangui-marthe.idani@etu.unice.fr)
+- Aime Niteka - (na006749@etu.unice.fr)
 
 ## Tâches prévisionnelles
 
