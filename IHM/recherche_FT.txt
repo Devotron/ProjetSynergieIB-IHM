@@ -1,2 +1,51 @@
-Conception centré utilisateur
 http://www.ergolab.net/articles/conception-centree-utilisateur.php
+------------------------
+
+
+https://tel.archives-ouvertes.fr/tel-00006623/document
+-------------------------
+l’ergonomie cognitive repose en général sur deux intérêts
+différents : l’un concernant l’interaction entre l’homme et la machine (tel que
+l’IHM), l’autre concernant plutôt l’interaction entre l’homme et l’homme (tel que
+l’ergonomie du travail)
+
+La multimodalité dans le domaine des IHM vise à introduire la possibilité d’utiliser,
+simultanément ou pas, plusieurs modalités de communication comme la parole et le
+geste. L’objectif des interfaces multimodales est de se rapprocher ainsi d’une
+communication Homme-Homme
+
+ Le Mapping d’Influence d’Usage représente le lien entre les valeurs
+sociologiques et l’univers de solutions en IHM. Cette représentation est explicite et
+facile à comprendre par tous les concepteurs de différents métiers car elle est
+composée d’images et de mots généralement compréhensibles.
+
+ la phase de définition du Cahier des Charges Fonctionnel
+(CdCF), de l’identification du besoin à la génération, la validation et la sélection des
+nouveaux concepts. C’est la phase la plus en amont par rapport au champ
+généralement exploré par l’ergonomie des IHM
+
+
+https://publications.polymtl.ca/455/1/2010_Jean-FrancoisProulx.pdf
+-------------------------
+La conception centrée utilisateur (CCU) est une approche
+fréquemment utilisée qui permet de guider la conception d’interface humain-machine (IHM) en
+prenant en considération les caractéristiques des utilisateurs, et de focaliser sur l’utilisabilité du
+produit conçu.
+
+L’objectif de la conception d’interfaces humain-machine (IHM) est de concevoir des dispositifs
+qui répondent aux besoins énoncés lors des phases d'analyse (analyse des utilisateurs, du
+contexte, de la tâche). En plus de considérer les besoins utilisateurs, les dispositifs doivent
+s’adapter à l’architecture de l’application en place. 
+
+La conception d'IHM est basée sur trois principes qui recoupent
+ceux de la CCU. Ces principes sont les suivants [22] :
+• tenir compte de l’utilisateur et la tâche;
+• effectuer des évaluations empiriques;
+• concevoir de manière itérative. 
+
+
+Important : 
+Conception centré utilisateur
+Ergonomie
+Developpement Iteratif
+
