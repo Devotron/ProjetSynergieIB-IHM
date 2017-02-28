@@ -28,6 +28,10 @@ Le projet se découpe en deux parties, la première étant une recherche bibliog
 
 La seconde partie concerne le développement du logiciel à partir des résultats de la partie précédente. Elle est prévue pour la seconde moitié du temps global du projet.
 
+Ci-dessous un liens vous permettant d'accèder au planning previsionnel Gant (necessite un compte Google + Gantter) :
+
+https://drive.google.com/file/d/0B53uWwi0XljYYldEcXc2eU96SUU/view?usp=sharing
+
 
 ###### Tâches
 - [ ] Recherche bibliographie sur l'IB
