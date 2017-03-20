@@ -32,6 +32,10 @@ Ci-dessous un liens vous permettant d'accèder au planning previsionnel Gant (ne
 
 https://drive.google.com/file/d/0B53uWwi0XljYYldEcXc2eU96SUU/view?usp=sharing
 
+Planning effectif :
+
+https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
+
 
 ###### Tâches
 - [ ] Recherche bibliographie sur l'IB
