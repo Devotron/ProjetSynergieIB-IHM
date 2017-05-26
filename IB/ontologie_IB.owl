@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/deptinfo/ontologies/2017/4/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/deptinfo/ontologies/2017/4/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#atteint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#atteint">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#non_atteint"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#decrit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#decrit">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#lie -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#lie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#non_atteint -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#non_atteint">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#partiede -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#partiede">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Auteur_du_Fragmant_de_besoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Auteur_du_Fragmant_de_besoin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_comportemental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_comportemental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_concret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_concret">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_fonctionnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_fonctionnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_objectifie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_objectifie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin_physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#Fragment_de_besoin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#affine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#affine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but_irrealiste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but_irrealiste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but_realiste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but_realiste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#but"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#et -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#et">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#ou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#ou">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario_exceptionnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario_exceptionnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario_normal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario_normal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/Ecritoire_KAOS#scenario"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
