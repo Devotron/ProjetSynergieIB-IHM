@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décomposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_type_[Occupe]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#But_non_fonctionnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rôle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Réalise]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décomposition_de_buts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décomposition_type_[Et]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décomposition_de_tâches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vulnérabilité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modèle_de_dépendance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Inconnue]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obstacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_type_[Couvre]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subordonné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Ind-]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Ind+]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Décomposition_type_[Ou]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tâche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opérationnalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#But"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_type_[Fait_partie_de]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Brise]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maître"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rationnalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Nuit]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lien_de_moyen-finalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crédibilité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Croyance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production_de_ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raffinement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Et]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_type_[Est_un]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_de_dépendance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Aide]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Point_de_vue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capacité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contribution_type_[Ou]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisation_de_ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Association_type_[Joue]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frontière_d&apos;acteur"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Acteur"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#But"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#But_non_fonctionnel"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capacité"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Croyance"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crédibilité"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Décomposition_de_buts"/>
+        <Class IRI="#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Décomposition_de_tâches"/>
+        <Class IRI="#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intention"/>
+        <Class IRI="#But"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lien_de_moyen-finalité"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maître"/>
+        <Class IRI="#Relation_de_dépendance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obstacle"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opérationnalisation"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Point_de_vue"/>
+        <Class IRI="#Frontière_d&apos;acteur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production_de_ressource"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raffinement"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rationnalité"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relation_de_dépendance"/>
+        <Class IRI="#Modèle_de_dépendance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ressource"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rôle"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subordonné"/>
+        <Class IRI="#Relation_de_dépendance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tâche"/>
+        <Class IRI="#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisation_de_ressource"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vulnérabilité"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_type_[Couvre]"/>
+        <Class IRI="#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_type_[Est_un]"/>
+        <Class IRI="#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_type_[Fait_partie_de]"/>
+        <Class IRI="#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_type_[Joue]"/>
+        <Class IRI="#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Association_type_[Occupe]"/>
+        <Class IRI="#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Aide]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Brise]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Et]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Inconnue]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Ind+]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Ind-]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Nuit]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Ou]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contribution_type_[Réalise]"/>
+        <Class IRI="#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Décomposition_type_[Et]"/>
+        <Class IRI="#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Décomposition_type_[Ou]"/>
+        <Class IRI="#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frontière_d&apos;acteur"/>
+        <Class IRI="#Modèle_de_raisonnement"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

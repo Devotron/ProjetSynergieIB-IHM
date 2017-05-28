@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1495994186248" name="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*" uri="Ontologie_IB_ISTAR.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1495994186248" name="http://www.semanticweb.org/deptinfo/ontologies/2017/4/untitled-ontology-2" uri="ontologie_IB.owl"/>
+    </group>
+</catalog>
