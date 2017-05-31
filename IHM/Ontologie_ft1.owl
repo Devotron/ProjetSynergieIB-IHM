@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2017/4/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2017/4/untitled-ontology-3">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Cas_d&apos;utilisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accessibilite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elaboration_des_reponses"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efficience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_sequentielle_entre_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action_physique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test_utilisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenario_d&apos;utilisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface_finale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#test_de_perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface_utilisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Population_cible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Partie_prenante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contexte_d&apos;utilisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maquettage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exigence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenario_projete_abstrait"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Originalite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_iterative_entre_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metadonnee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technologie_transverse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objectif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#But"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Panel_tilisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Besoin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tâche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Systeme_interactif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_organisationnel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona_primaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_legislatif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efficacite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enquete_utilisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur_final_reel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opérateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technologie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Envie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arbre_des_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview_semi-dirigee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation_de_travail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface_abstraite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_ambiant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisabilite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident_critique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#test_usabilite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_parallele_entre_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sous-tache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wireframe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caracteristique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tâche_elementaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenario_projete_concret"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur_final_potentiel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dispositif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona_secondaire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_physique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modele_de_tache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interview"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flexibilite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Focus_group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tri_par_carte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fonction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interface_concrete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utilisateur_final"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satisfaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_simultanee_entre_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Solution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relation_alternative_entre_taches"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contrainte_materiel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environnement_social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluidite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prototype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storyboard"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Accessibilite"/>
+        <Class IRI="#Utilisabilite"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Activité"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Action"/>
+        <Class IRI="#Tâche_elementaire"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Activité"/>
+        <Class IRI="#Tâche_elementaire"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#But"/>
+        <Class IRI="#Modele_de_tache"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#But"/>
+        <Class IRI="#Objectif"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Caracteristique"/>
+        <Class IRI="#Environnement"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Contrainte_materiel"/>
+        <Class IRI="#Environnement_technique"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dispositif"/>
+        <Class IRI="#Modele_de_tache"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Efficacite"/>
+        <Class IRI="#Efficience"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Enquete_utilisateur"/>
+        <Class IRI="#Focus_group"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Enquete_utilisateur"/>
+        <Class IRI="#Interview"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Envie"/>
+        <Class IRI="#Exigence"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Envie"/>
+        <Class IRI="#Fonction"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Environnement"/>
+        <Class IRI="#Contexte_d&apos;utilisation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Evaluation"/>
+        <Class IRI="#Satisfaction"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Exigence"/>
+        <Class IRI="#Fonction"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Focus_group"/>
+        <Class IRI="#Interview"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Incident_critique"/>
+        <Class IRI="#Satisfaction"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Interface_abstraite"/>
+        <Class IRI="#Interface_concrete"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Interface_abstraite"/>
+        <Class IRI="#Interface_finale"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Interface_concrete"/>
+        <Class IRI="#Interface_finale"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Scenario_projete_abstrait"/>
+        <Class IRI="#Scenario_projete_concret"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Situation_de_travail"/>
+        <Class IRI="#Contexte_d&apos;utilisation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Systeme_interactif"/>
+        <Class IRI="#Technologie"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Utilisateur_final_potentiel"/>
+        <Class IRI="#Utilisateur_final_reel"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Tâche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Activité"/>
+        <Class IRI="#Tâche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contrainte_materiel"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enquete_utilisateur"/>
+        <Class IRI="#Interview"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Envie"/>
+        <Class IRI="#Besoin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement"/>
+        <Class IRI="#Contexte_d&apos;utilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_ambiant"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_legislatif"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_organisationnel"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_physique"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_social"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environnement_technique"/>
+        <Class IRI="#Environnement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exigence"/>
+        <Class IRI="#Besoin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focus_group"/>
+        <Class IRI="#Enquete_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fonction"/>
+        <Class IRI="#Besoin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface_abstraite"/>
+        <Class IRI="#Interface_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface_concrete"/>
+        <Class IRI="#Interface_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface_finale"/>
+        <Class IRI="#Interface_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interface_utilisateur"/>
+        <Class IRI="#Systeme_interactif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interview_semi-dirigee"/>
+        <Class IRI="#Interview"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objectif"/>
+        <Class IRI="#Arbre_des_taches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objectif"/>
+        <Class IRI="#But"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Opérateur"/>
+        <Class IRI="#Utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Partie_prenante"/>
+        <Class IRI="#Utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona"/>
+        <Class IRI="#Profil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona"/>
+        <Class IRI="#Utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona_primaire"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona_secondaire"/>
+        <Class IRI="#Persona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Population_cible"/>
+        <Class IRI="#Utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedure"/>
+        <Class IRI="#Arbre_des_taches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scenario_projete_abstrait"/>
+        <Class IRI="#Scenario_d&apos;utilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scenario_projete_concret"/>
+        <Class IRI="#Scenario_d&apos;utilisation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technologie"/>
+        <Class IRI="#Systeme_interactif"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Technologie_transverse"/>
+        <Class IRI="#Technologie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tâche_elementaire"/>
+        <Class IRI="#Tâche"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur_final"/>
+        <Class IRI="#Utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur_final_potentiel"/>
+        <Class IRI="#Utilisateur_final"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utilisateur_final_reel"/>
+        <Class IRI="#Utilisateur_final"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wireframe"/>
+        <Class IRI="#Prototype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#test_de_perception"/>
+        <Class IRI="#Test_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#test_usabilite"/>
+        <Class IRI="#Test_utilisateur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contexte_d&apos;utilisation"/>
+        <Class IRI="#Situation_de_travail"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Relation_alternative_entre_taches"/>
+        <Class IRI="#Relation_iterative_entre_taches"/>
+        <Class IRI="#Relation_parallele_entre_taches"/>
+        <Class IRI="#Relation_sequentielle_entre_taches"/>
+        <Class IRI="#Relation_simultanee_entre_taches"/>
+    </DisjointClasses>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
