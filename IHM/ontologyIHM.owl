@@ -1,0 +1,1407 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#"
+     xml:base="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#flexibilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fluidité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#maquettage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#procédure"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#profil"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#prototype"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#sous-tâche"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#storyboard"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#wireframe"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#élaboration_des_réponses"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action_physique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_ambiant"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_législatif"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_organisationnel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_physique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_social"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#panel_utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tri_par_carte"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#caracteristique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contrainte_matériel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#dispositif"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#incident_critique"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_abstraite"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_concrète"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_final"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#objectif"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#opérateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#partie_prenante"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_primaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_secondaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#population_cible"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_abstrait"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_concret"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#situation_de_travail"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_potentiel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_réel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#évaluation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action_physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action_physique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#objectif"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#objectif"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#caracteristique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#caracteristique">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contrainte_matériel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contrainte_matériel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#dispositif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#dispositif">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_ambiant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_législatif"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_organisationnel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_physique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_social"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#caracteristique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_ambiant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_ambiant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_législatif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_législatif">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_organisationnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_organisationnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_physique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_physique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement_technique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contrainte_matériel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#flexibilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#flexibilité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fluidité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fluidité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fonction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#envie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#exigence"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#incident_critique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#incident_critique">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_abstraite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_abstraite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_concrète"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_final"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_concrète -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_concrète">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_abstraite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_final"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_final -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_final">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_abstraite"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_concrète"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interface_utilisateur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#enquête_utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#focus_group"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview_semi-dirigée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview_semi-dirigée">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#interview"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#maquettage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#maquettage">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#prototype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#modèle_de_tâche">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#dispositif"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#métadonnée -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#métadonnée"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#objectif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#objectif">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#opérateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#opérateur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#originalité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#originalité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#panel_utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#panel_utilisateur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#partie_prenante -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#partie_prenante">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#profil"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_primaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_primaire">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_secondaire"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_secondaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_secondaire">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#persona_primaire"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#population_cible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#population_cible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#procédure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#procédure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#arbre_des_tâches"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#sous-tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#profil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#profil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#prototype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#prototype">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#wireframe"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_alternative_entre_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_alternative_entre_tâches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_itérative_entre_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_itérative_entre_tâches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_parallèle_entre_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_parallèle_entre_tâches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_simultanée_entre_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_simultanée_entre_tâches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_séquentielle_entre_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_séquentielle_entre_tâches"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#incident_critique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#évaluation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_abstrait -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_abstrait">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_concret"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_concret -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_concret">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_projeté_abstrait"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#situation_de_travail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#situation_de_travail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#solution"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#sous-tâche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#sous-tâche"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#storyboard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#storyboard">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#système_interactif"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie_transverse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie_transverse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#technologie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_de_perception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_de_perception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_utilisateur"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tri_par_carte -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tri_par_carte">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#sous-tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche_élémentaire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#tâche"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#activité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#action_physique"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#opérateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#partie_prenante"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#population_cible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_potentiel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_potentiel">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_réel"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_réel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_réel">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur_final_potentiel"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#wireframe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#wireframe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#prototype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#élaboration_des_réponses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#élaboration_des_réponses">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#accessibilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#besoin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficacité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#efficience"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#flexibilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#fluidité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisabilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#évaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#évaluation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#satisfaction"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#cas_d&apos;utilisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#cas_d&apos;utilisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#contexte_d&apos;utilisation">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#estSimilaire"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#situation_de_travail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#profil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#composition"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#environnement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#scénario_d&apos;utilisation">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#utilisateur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#aggregation"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#but"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_d&apos;usabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_d&apos;usabilité">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#test_utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_alternative_entre_tâches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_itérative_entre_tâches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_parallèle_entre_tâches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_simultanée_entre_tâches"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/juingong/ontologies/2017/4/ihm#relation_séquentielle_entre_tâches"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
