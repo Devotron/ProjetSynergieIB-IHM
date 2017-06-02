@@ -1,0 +1,1311 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*"
+     xml:base="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#dépendance -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#dépendance"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#génère -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#génère">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Opérationnalisation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#opposé_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#opposé_de">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide]"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise]"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+]"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-]"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit]"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise]"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#se_repercute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#se_repercute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#attache_a[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#attache_a[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#attribue_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#attribue_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#bloquer_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#bloquer_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#decrire_comportement[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#decrire_comportement[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#detailler[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#detailler[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#effectue_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#effectue_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#entree_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#entree_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#lie[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#lie[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operationnalisation_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operationnalisation_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#partiede[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#partiede[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#rafinement_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#rafinement_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realise[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realise[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#redige[ecritoire] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#redige[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#responsabilité_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#responsabilité_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#sortie_[KAOS] -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#sortie_[KAOS]"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Affine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Affine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Capacité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Capacité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Crédibilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Crédibilité">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#ET -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#ET">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#composition"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#OU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#OU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Opérationnalisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Opérationnalisation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rationnalité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rationnalité">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realized"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Vulnérabilité -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Vulnérabilité"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Couvre] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Couvre]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Est_un] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Est_un]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Fait_partie_de] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Fait_partie_de]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Joue] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Joue]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Occupe] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Occupe]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#aggregation"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#association_simple"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#attribue_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#partiede[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Et] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Et]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Inconnue] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Inconnue]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ou] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ou]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_comportemental[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_comportemental[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_concret[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_concret[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_fonctionnel[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_fonctionnel[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_objectifie[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_objectifie[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_physique[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_physique[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realize"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#effectue_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operation_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_logiciel_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_logiciel_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#rafinement_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_fonctionnel_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_fonctionnel_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_irrealiste[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_irrealiste[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_non_fonctionnel_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_non_fonctionnel_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_realiste[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_realiste[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#rafinement_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#entite[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#entite[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#evenement[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#evenement[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operationnalisation_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operation_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#responsabilité_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[KAOS]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#partiede[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_exceptionnel[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_exceptionnel[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#realise[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_normal[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_normal[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#agent[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#agent[ecritoire]"/>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#auteur_fragment_de_besoin[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#auteur_fragment_de_besoin[ecritoire]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#redige[ecritoire]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#obstacle_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#obstacle_[KAOS]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#bloquer_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operation_[KAOS] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#operation_[KAOS]">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#entree_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#sortie_[KAOS]"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#system[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#system[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#agent[ecritoire]"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#utilisateur[ecritoire] -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#utilisateur[ecritoire]">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*#agent[ecritoire]"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

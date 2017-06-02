@@ -1,0 +1,1217 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/deptinfo/ontologies/2017/5/IB_ECRITOIRE_KAOS_I*">
+    <Prefix name="" IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#partiede[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aggregation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_fonctionnel[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#obstacle_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#detailler[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_normal[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Inconnue]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_exceptionnel[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_comportemental[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attribue_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_physique[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#OU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#composition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#responsabilité_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#evenement[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Crédibilité"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#association_simple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#entite[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dépendance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attache_a[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#redige[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ou]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#opposé_de"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Joue]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_logiciel_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#effectue_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_irrealiste[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#génère"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Occupe]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realise[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_concret[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Affine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#ET"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#operationnalisation_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#lie[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sortie_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rafinement_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Vulnérabilité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Couvre]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entree_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#utilisateur[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Opérationnalisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#agent[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Fait_partie_de]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#auteur_fragment_de_besoin[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rationnalité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_objectifie[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#system[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decrire_comportement[ecritoire]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bloquer_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#operation_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#se_repercute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Et]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Est_un]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_non_fonctionnel_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_fonctionnel_[KAOS]"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Capacité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_realiste[ecritoire]"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Affine"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Crédibilité"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#ET"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#aggregation"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composition"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composition"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composition"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composition"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#composition"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#OU"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rationnalité"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#association_simple"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realized"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Element"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Couvre]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Couvre]"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#aggregation"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Est_un]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Est_un]"/>
+        <ObjectIntersectionOf>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Fait_partie_de]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Fait_partie_de]"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aggregation"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aggregation"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Joue]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Joue]"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Occupe]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association_type_[Occupe]"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#aggregation"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#association_simple"/>
+                <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#attribue_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#partiede[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Et]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Inconnue]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ou]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Et]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_type_[Ou]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_comportemental[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_concret[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_fonctionnel[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_objectifie[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin_physique[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realize"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Point_de_vue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#effectue_[KAOS]"/>
+            <Class IRI="#operation_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_logiciel_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#rafinement_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_fonctionnel_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_irrealiste[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_non_fonctionnel_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_operationel_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_realiste[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_strategique_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#rafinement_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but_concret_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#entite[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#evenement[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#operationnalisation_[KAOS]"/>
+            <Class IRI="#operation_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#exigence[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#responsabilité_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#agent_humain_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#relation[KAOS]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#partiede[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_exceptionnel[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_exceptionnel[ecritoire]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#realise[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario_normal[ecritoire]"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#scenario[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#auteur_fragment_de_besoin[ecritoire]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#redige[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Fragment_de_besoin[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#obstacle_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#bloquer_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#entree_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#operation_[KAOS]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#sortie_[KAOS]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#objet_[KAOS]"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#system[ecritoire]"/>
+        <Class IRI="#agent[ecritoire]"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#utilisateur[ecritoire]"/>
+        <Class IRI="#agent[ecritoire]"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Association"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_raisonnement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Position"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_tâches"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Ressource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Lien_de_moyen-finalité"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aggregation"/>
+        <ObjectProperty IRI="#association"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#association_simple"/>
+        <ObjectProperty IRI="#association"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#composition"/>
+        <ObjectProperty IRI="#association"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#realized"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#atteint[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#non_atteint[ecritoire]"/>
+            <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#but[ecritoire]"/>
+        </ObjectAllValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#génère"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#génère"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But_non_fonctionnel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#génère"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Croyance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#génère"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Opérationnalisation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#génère"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Tâche"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Maître"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Production_de_ressource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Subordonné"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Utilisation_de_ressource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Aide]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Brise]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind+]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Ind-]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Nuit]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#opposé_de"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution_type_[Réalise]"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#But"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Modèle_de_dépendance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Raffinement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Frontière_d&apos;acteur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Acteur"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Décomposition_de_buts"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Intention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Relation_de_dépendance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Rôle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_repercute"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Contribution"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_repercute"/>
+        <Class IRI="http://www.semanticweb.org/deptinfo/ontologies/2017/4/I*#Obstacle"/>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
