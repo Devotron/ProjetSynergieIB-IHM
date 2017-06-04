@@ -47,6 +47,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 
 ###### Tâches prévisionnelles
 
+
 **Phase de recherche :**
 
 - Recherche bibliographie sur l'IB
@@ -63,6 +64,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 
 
 ###### Tâches réalisé par rapport aux tâches prévisionelles
+
 
 **Phase de recherche :**
 - [X] Recherche bibliographie sur l'IB
@@ -85,15 +87,21 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 
 
 **Phase de développement :**
+
+
 - [ ] Conception logiciel
 - [ ] Développement logiciel
 
+
 ###### Tâches en cours
+
 - Ontologie des concepts IB
 - Ontologie des concepts IHM
 - Ontologie des concepts IB et IHM dans les logiciels existants
 
+
 ###### Répartition des tâches
+
 
 **Michaël, Marthe :**
 - Recherche bibliographie sur l'IB (Méthodes Ecritoire, KAOS, I*)
