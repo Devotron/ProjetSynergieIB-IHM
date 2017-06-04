@@ -48,8 +48,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 ###### Tâches prévisionnelles
 
 
-**Phase de recherche :**
-
+Phase de recherche :
 - Recherche bibliographie sur l'IB
 - Recherche bibliographie sur l'IHM
 - Recherche sur les logiciels existant pour l'IB et l'IHM
@@ -57,18 +56,17 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 - Synthèse
 
 
-**Phase de développement :**
-
+Phase de développement :
 - Conception logiciel
 - Développement logiciel
 
 
-###### Etat des tâches
+## Etat des tâches
 
 ######Tâches réalisées / tâches prévisionelles
 
 
-**Phase de recherche :**
+Phase de recherche :
 - [X] Recherche bibliographie sur l'IB
 - [X] Recherche bibliographie sur l'IHM
 - [X] Recherche sur les logiciels existant pour l'IB et l'IHM
@@ -88,9 +86,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 - [ ] Synthèse
 
 
-**Phase de développement :**
-
-
+Phase de développement :
 - [ ] Conception logiciel
 - [ ] Développement logiciel
 
@@ -103,7 +99,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 - Ontologie des concepts IB et IHM dans les logiciels existants
 
 
-###### Répartition des tâches
+## Répartition des tâches
 
 
 **Michaël, Marthe :**
