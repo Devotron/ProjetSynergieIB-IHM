@@ -63,7 +63,9 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 - Développement logiciel
 
 
-###### Tâches réalisé par rapport aux tâches prévisionelles
+###### Etat des tâches
+
+######Tâches réalisées / tâches prévisionelles
 
 
 **Phase de recherche :**
@@ -91,6 +93,7 @@ https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 
 - [ ] Conception logiciel
 - [ ] Développement logiciel
+
 
 
 ###### Tâches en cours
