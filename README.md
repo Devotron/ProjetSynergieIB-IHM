@@ -24,7 +24,7 @@ dans l'Ingénierie des Besoins et dans le domaine de l'Interaction Homme Machine
 - Marthe Idani - (palamangui-marthe.idani@etu.unice.fr)
 - Aime Niteka - (na006749@etu.unice.fr)
 
-
+<br/>
 
 ## Plannification
 
@@ -60,10 +60,11 @@ Phase de développement :
 - Conception logiciel
 - Développement logiciel
 
+<br/>
 
 ## Etat des tâches
 
-######Tâches réalisées / tâches prévisionelles
+###### Tâches réalisées / tâches prévisionelles
 
 
 Phase de recherche :
@@ -98,6 +99,7 @@ Phase de développement :
 - Ontologie des concepts IHM
 - Ontologie des concepts IB et IHM dans les logiciels existants
 
+<br/>
 
 ## Répartition des tâches
 
