@@ -99,6 +99,23 @@ Phase de développement :
 - Ontologie des concepts IHM
 - Ontologie des concepts IB et IHM dans les logiciels existants
 
+###### Documents réalisés  
+  
+>Extraction des concepts  
+>* Rendu d'un document Excel regroupant les concepts découvert et leurs définitions.  
+
+---
+
+>Modélisation des concepts  
+>* Rendu des représentation graphiques des concepts et leurs relations.  
+
+---
+
+>Ontolongies des concepts  
+>* Rendu des débuts d'ontologies au format OWL  
+
+---
+
 <br/>
 
 ## Répartition des tâches
