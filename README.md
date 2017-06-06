@@ -38,14 +38,14 @@ La seconde partie concerne le développement du logiciel à partir des résultat
 Vous pourrez retrouver notre planning prévisionnel en suivant ce lien (necessite un compte Google + Gantter) :
 https://drive.google.com/file/d/0B53uWwi0XljYYldEcXc2eU96SUU/view?usp=sharing
 
-<img src = "./Synergie IB-IHM - Planning réel.png" title = "planning prévisionel" alt = "Planning prévisionel">
+<img src = "./Synergie IB-IHM - Planning prévisionnel.png" href="https://drive.google.com/open?id=0B53uWwi0XljYdmVSR0J3WVJndFU" title = "planning prévisionel" alt = "Planning prévisionel">
 
 ###### Planning réel
 
 Vous pourrez retrouver notre planning réel en suivant ce lien (necessite un compte Google + Gantter) :
 https://drive.google.com/file/d/0B53uWwi0XljYSkRKQlVtSkU3SE0/view?usp=sharing
 
-<img src = "./Synergie IB-IHM - Planning prévisionnel.png" title = "planning réel" alt = "Planning réel">
+<img src = "./Synergie IB-IHM - Planning réel.png" href="https://drive.google.com/open?id=0B53uWwi0XljYLWFSaUlyNnVOYzg" title = "planning réel" alt = "Planning réel">
 
 ###### Tâches prévisionnelles
 
